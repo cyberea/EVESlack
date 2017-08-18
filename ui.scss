@@ -26,11 +26,11 @@ Requirements:
 }
 @font-face{
     font-family: 'EveSans';
-    src: url('fonts/evesans.eot');
-    src: url('fonts/evesans.eot?#iefix') format('embedded-opentype'),
-         url('fonts/evesans.woff') format('woff'),
-         url('fonts/evesans.ttf') format('truetype'),
-         url('fonts/evesans.svg#webfont') format('svg');
+    src: url('https://github.com/cyberea/EVESlack/raw/master/fonts/evesans.eot');
+    src: url('https://github.com/cyberea/EVESlack/raw/master/fonts/evesans.eot?#iefix') format('embedded-opentype'),
+         url('https://github.com/cyberea/EVESlack/raw/master/fonts/evesans.woff') format('woff'),
+         url('https://github.com/cyberea/EVESlack/raw/master/fonts/evesans.ttf') format('truetype'),
+         url('https://github.com/cyberea/EVESlack/raw/master/fonts/evesans.svg#webfont') format('svg');
 }
 *:not(*[class*='cm-']) {
     font-family: EveSans,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
