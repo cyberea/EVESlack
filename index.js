@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() { // eslint-disable-lin
    let webviews = document.querySelectorAll(".TeamView webview");
 
    // Fetch EVEStyle CSS in parallel ahead of time
-   const cssURI = 'https://github.com/cyberea/EVESlack/raw/master/ui.scss';
+   const cssURI = 'https://raw.githubusercontent.com/cyberea/EVESlack/master/ui.scss';
    let cssPromise = fetch(cssURI).then(response => response.text());
 
    // Then wait for the views to load

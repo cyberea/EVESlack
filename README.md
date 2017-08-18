@@ -7,7 +7,7 @@ Whilst the WebApp version works pretty well as seen in the screenshot, the Deskt
 
 # Example
 
-![EVE Slack](https://github.com/cyberea/EVESlack/raw/master/assets/screenshot.jpg)
+![EVE Slack](https://raw.githubusercontent.com/cyberea/EVESlack/master/assets/screenshot.jpg)
 
 # Instructions: Web App
 
@@ -34,6 +34,6 @@ Any issues, please contact me.
 
 # Optional: Preferences > Sidebar
 
-![Preferences 1](https://github.com/cyberea/EVESlack/raw/master/assets/slack-preferences-sidebar-1.jpg)
+![Preferences 1](https://raw.githubusercontent.com/cyberea/EVESlack/master/assets/slack-preferences-sidebar-1.jpg)
 
-![Preferences 2](https://github.com/cyberea/EVESlack/raw/master/assets/slack-preferences-sidebar-2.jpg)
+![Preferences 2](https://raw.githubusercontent.com/cyberea/EVESlack/master/assets/slack-preferences-sidebar-2.jpg)
