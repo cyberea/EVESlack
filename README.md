@@ -1,5 +1,9 @@
-# EVESlack
-EVE Online styled UI for Slack Web &amp; Desktop Apps *WIP
+# EVESlack (Work in Progress)
+EVE Online styled UI for Slack Web &amp; Desktop Apps
+
+Whilst the WebApp version works pretty well as seen in the screenshot, the DesktopApp is quite flakey and I am working on it.
+
+— Cyberea
 
 # Example
 
@@ -19,8 +23,8 @@ EVE Online styled UI for Slack Web &amp; Desktop Apps *WIP
 NOTE: You will need to perform this procedure after each Slack update/patch.
 
 1. Copy the following file to your Desktop:
-    MacOS: `Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/index.js`
-    Windows: `C:\Users\___USER___\AppData\Local\slack\app-___VERSION___\resources\app.asar.unpacked\src\static\index.js`
+    - MacOS: `Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/index.js`
+    - Windows: `C:\Users\___USER___\AppData\Local\slack\app-___VERSION___\resources\app.asar.unpacked\src\static\index.js`
 1. Open the file with a text editor of your choosing.
 1. Append the (uncommented) javascript within `index.js` to the end of the file. Do not modify the existing scripts!
 1. Save the file and overwrite the original.
