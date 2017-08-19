@@ -36,7 +36,7 @@ Requirements:
     font-family: EveSans,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 body {
-    background: #222;
+    background: #151515;
     color: #e6e6e6;
 }
 a {
@@ -780,12 +780,12 @@ textarea[readonly] {
     border-color: #424242;
     color: #949494;
 }
-#msg_form.focus #msg_input,
+#msg_form.focus #msg_input:not(:hover):not(.active),
 #msg_form.focus #primary_file_button:not(:hover):not(.active) {
     border-color: #363636;
 }
 #msg_form #msg_input {
-    background: padding-box #545454;
+    background: padding-box #000;
     border-color: #424242;
     border-left: 0;
     color: #e6e6e6;
@@ -820,7 +820,7 @@ textarea[readonly] {
 }
 #msg_input:focus + #primary_file_button:not(:hover):not(.active),
 #msg_input.focus + #primary_file_button:not(:hover):not(.active) {
-    border-color: #363636;
+    border-color: #424242 !important;
 }
 #msg_input.offline:not(.pretend-to-be-online) {
     background-color: #363636 !important;
@@ -837,8 +837,8 @@ textarea[readonly] {
     color: #e6e6e6;
 }
 #primary_file_button {
-    background: padding-box #545454;
-    border-color: #424242;
+    background: padding-box #222;
+    border-color: #424242 !important;
 }
 #primary_file_button.active,
 #primary_file_button:hover {
@@ -854,7 +854,7 @@ textarea[readonly] {
 }
 #footer,
 #footer.footer_msg_input {
-    background: #222;
+    background: #151515;
 }
 #footer.disabled #message-input,
 #footer.disabled #msg_input {
@@ -872,7 +872,7 @@ textarea[readonly] {
     filter: none;
 }
 #special_formatting_text {
-    color: #949494;
+    color: cadetblue;
 }
 .ql-editor::-webkit-scrollbar-thumb {
     background-color: rgba(84, 84, 84, 0.5);
@@ -1759,9 +1759,8 @@ ts-message .pinned_item_message_header {
     color: #949494;
 }
 ts-message .mention {
-    background: #222 !important;
-    border-radius: 3px;
-    color: lime;
+    background: transparent;
+    color: yellow;
     font-weight: 900;
 }
 ts-message.show_recap:not(.is_pinned) {
