@@ -2651,6 +2651,10 @@ pre {
     border: 1px solid #363636;
     color: #e6e6e6;
 }
+pre.special_formatting * {
+    font-family: inherit;
+    font-size: 14px !important;
+}
 pre span.mention {
     padding: 2px 0 !important;
 }
