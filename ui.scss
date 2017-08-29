@@ -14,7 +14,7 @@ Requirements:
     --accent: #f2b76a;
     --background: #222;
     --background-elevated: #363636;
-    --background-hover: #1f1f1f;
+    --background-hover: #151515;
     --sidebar-background: #1a2129;
     --border-dim: #1f2126;
     --border-bright: var(--primary);
@@ -1643,6 +1643,10 @@ ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highligh
 ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).is_pinned,
 ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).show_recap:not(.is_pinned) {
     background: rgba(0, 0, 0, 0.2);
+}
+ts-message a.internal_member_link {
+    font-weight: bold;
+    background: #151515 !important;
 }
 ts-message.is_pinned {
     background: rgba(0, 0, 0, 0.15);
