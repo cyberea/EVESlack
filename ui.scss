@@ -219,7 +219,7 @@ h1 a:visited {
 }
 .p-channel_sidebar__static_list div {
     margin: 2px auto;
-    padding: 4px;
+    padding: 0 4px;
 }
 .p-channel_sidebar__static_list div > * {
     border-radius: 4px;
@@ -1409,6 +1409,9 @@ textarea[readonly] {
 }
 .channel_header .blue_on_hover:hover {
     color: #e6e6e6;
+}
+.channel_header .channel_topic_text {
+    background-color: rgb(34, 34, 34);
 }
 #client_body:not(.onboarding)::before {
     background: #222;
